@@ -1,0 +1,72 @@
+/* CURRENTLY IN: styles/main.css */
+* {
+box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+.site-wrapper {
+	width: 100%;
+}
+.header {
+	background-color:black;
+}
+
+.header__logo {
+	color:#FFFF75;
+	float: left;
+	font-size: 3rem;
+	font-family: Merriweather;
+	font-style: bold;
+	margin: 2rem;
+}
+.header__nav {
+	color:white;
+	padding: 2.5rem;
+	float: right;
+}
+.navigation__link--active {
+	color:white;
+	font-size: 2rem;
+	font-family: Oswald;
+	font-weight:200px;
+	padding: .5rem;
+}
+.navigation__link--other{
+	color:white;
+	font-size: 2rem;
+	font-family: Source Sans Pro;
+	padding: .5rem;
+}
+.container {
+	margin:0 auto;
+	background-color:#c0c0c0;
+	padding:.1rem;
+
+}
+.tagline__text{
+	color: black;
+	font-family: Merriweather;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	padding: .5rem;
+	text-align: center;
+}
+
+.banner{
+	padding: 30px;
+	margin-left: 30px
+}
+
+.banner--container {
+	width: 50%;
+	min-width: 50%;
+	size: cover;
+	background: url(/images/coworking.jpg) no-repeat;
+	
+}
+
+/
